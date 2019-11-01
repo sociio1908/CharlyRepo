@@ -58,7 +58,9 @@ namespace Inventario
             if (obj.ShowDialog() == DialogResult.OK)
             {
                 txt_nomcli.Text = obj.dataGridView1.Rows[obj.dataGridView1.CurrentCell.RowIndex].Cells[1].Value.ToString();
-                txt_codcli.Text = obj.dataGridView1.Rows[obj.dataGridView1.CurrentCell.RowIndex].Cells[0].Value.ToString();
+
+
+
             }
           
         }
