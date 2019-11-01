@@ -1,0 +1,150 @@
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.csprojAssemblyReference.cache
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.Form1.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.Properties.Resources.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.csproj.GenerateResource.cache
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.csproj.CoreCompileInputs.cache
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\bin\Release\Inventario.exe.config
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\bin\Release\Inventario.exe
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\bin\Release\Inventario.pdb
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\bin\Release\Utilidades.dll
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\bin\Release\Utilidades.pdb
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.csproj.CopyComplete
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.exe
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.pdb
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.FormBase.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.menu.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.FormConsultas.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.FormProceso.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.FromMantenimiento.resources
+C:\Users\Yeri Mendoza\source\repos\Inventario\Inventario\obj\Release\Inventario.FormArchivos.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Inventario.exe.config
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Inventario.exe
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Inventario.pdb
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.csprojAssemblyReference.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.Form1.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormArchivos.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormBase.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormProceso.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.menu.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.Properties.Resources.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.csproj.GenerateResource.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.csproj.CoreCompileInputs.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.csproj.CopyComplete
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.exe
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.pdb
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ClassLibrary1.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ClassLibrary1.pdb
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormMantenimiento.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsDep.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.Consultas.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantDep.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsCli.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantCli.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantArt.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsArt.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsSup.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantSup.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsUni.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantUni.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormReporte.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\itextsharp.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.ReportViewer.Design.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\EnvDTE.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\stdole.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\EnvDTE80.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\VSLangProj.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\VSLangProj80.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\System.Threading.Tasks.Dataflow.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.MSXML.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\VSLangProj2.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.exe.config
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\RdlCompile.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\RdlCompile.compiled
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepArt.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepCli.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepDep.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepSup.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepUni.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.GrupMant.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsGruArt.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepGruArt.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.Login.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.EnviarCorreo.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.MantUsu.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsUsu.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormVentas.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.RepFactura.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FacturaCompra.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.FormCompras.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Bunifu_UI_v1.5.3.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ConsultarVentaCompra.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ReporteProceso.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\Inventario\obj\Release\Inventario.ReporteProcesoCompra.resources

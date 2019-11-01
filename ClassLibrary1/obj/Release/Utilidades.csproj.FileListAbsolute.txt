@@ -1,0 +1,8 @@
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\bin\Release\ClassLibrary1.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\ClassLibrary1.dll
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\ClassLibrary1.pdb
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\ClassLibrary1.textBox.resources
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\Utilidades.csproj.GenerateResource.cache
+C:\Users\Yeri Mendoza\Documents\Proyectos C#\Inventario\ClassLibrary1\obj\Release\Utilidades.csprojAssemblyReference.cache

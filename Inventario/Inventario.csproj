@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19425FED-4D9C-4D49-B8C2-70E6470B35C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Inventario</RootNamespace>
+    <AssemblyName>Inventario</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\Visual Studio 2017\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD_InventarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_InventarioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_InventarioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_InventarioDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_InventarioDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_InventarioDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConexionBD.cs" />
+    <Compile Include="ConsArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsArt.Designer.cs">
+      <DependentUpon>ConsArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsCli.Designer.cs">
+      <DependentUpon>ConsCli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsDep.Designer.cs">
+      <DependentUpon>ConsDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsGruArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsGruArt.Designer.cs">
+      <DependentUpon>ConsGruArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsSup.Designer.cs">
+      <DependentUpon>ConsSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarVentaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarVentaCompra.Designer.cs">
+      <DependentUpon>ConsultarVentaCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsUni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsUni.Designer.cs">
+      <DependentUpon>ConsUni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsUsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsUsu.Designer.cs">
+      <DependentUpon>ConsUsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosFacturaCompra.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosFacturaCompra.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosFactura.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosFactura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnviarCorreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnviarCorreo.Designer.cs">
+      <DependentUpon>EnviarCorreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaCompra.Designer.cs">
+      <DependentUpon>FacturaCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArchivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArchivos.Designer.cs">
+      <DependentUpon>FormArchivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas.Designer.cs">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompras.Designer.cs">
+      <DependentUpon>FormCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProceso.Designer.cs">
+      <DependentUpon>FormProceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMantenimiento.Designer.cs">
+      <DependentUpon>FormMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporte.Designer.cs">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVentas.Designer.cs">
+      <DependentUpon>FormVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupMant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupMant.Designer.cs">
+      <DependentUpon>GrupMant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetGeneral.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetGeneral.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantCli.Designer.cs">
+      <DependentUpon>MantCli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantArt.Designer.cs">
+      <DependentUpon>MantArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantSup.Designer.cs">
+      <DependentUpon>MantSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantUni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantUni.Designer.cs">
+      <DependentUpon>MantUni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantUsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantUsu.Designer.cs">
+      <DependentUpon>MantUsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MantDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantDep.Designer.cs">
+      <DependentUpon>MantDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepArt.Designer.cs">
+      <DependentUpon>RepArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepCli.Designer.cs">
+      <DependentUpon>RepCli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepDep.Designer.cs">
+      <DependentUpon>RepDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepFactura.Designer.cs">
+      <DependentUpon>RepFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepGruArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepGruArt.Designer.cs">
+      <DependentUpon>RepGruArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteProceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteProceso.Designer.cs">
+      <DependentUpon>ReporteProceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteProcesoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteProcesoCompra.Designer.cs">
+      <DependentUpon>ReporteProcesoCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepSup.Designer.cs">
+      <DependentUpon>RepSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepUni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepUni.Designer.cs">
+      <DependentUpon>RepUni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="ConsArt.resx">
+      <DependentUpon>ConsArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsCli.resx">
+      <DependentUpon>ConsCli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsDep.resx">
+      <DependentUpon>ConsDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsGruArt.resx">
+      <DependentUpon>ConsGruArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsSup.resx">
+      <DependentUpon>ConsSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarVentaCompra.resx">
+      <DependentUpon>ConsultarVentaCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsUni.resx">
+      <DependentUpon>ConsUni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsUsu.resx">
+      <DependentUpon>ConsUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnviarCorreo.resx">
+      <DependentUpon>EnviarCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactCompra.rdlc" />
+    <EmbeddedResource Include="FacturaCompra.resx">
+      <DependentUpon>FacturaCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactVen.rdlc" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArchivos.resx">
+      <DependentUpon>FormArchivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas.resx">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompras.resx">
+      <DependentUpon>FormCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProceso.resx">
+      <DependentUpon>FormProceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMantenimiento.resx">
+      <DependentUpon>FormMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporte.resx">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVentas.resx">
+      <DependentUpon>FormVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupMant.resx">
+      <DependentUpon>GrupMant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantCli.resx">
+      <DependentUpon>MantCli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantArt.resx">
+      <DependentUpon>MantArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantSup.resx">
+      <DependentUpon>MantSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantUni.resx">
+      <DependentUpon>MantUni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantUsu.resx">
+      <DependentUpon>MantUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MantDep.resx">
+      <DependentUpon>MantDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepArt.resx">
+      <DependentUpon>RepArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCli.rdlc" />
+    <EmbeddedResource Include="RepCli.resx">
+      <DependentUpon>RepCli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepDep.rdlc" />
+    <EmbeddedResource Include="RepDep.resx">
+      <DependentUpon>RepDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepFactura.resx">
+      <DependentUpon>RepFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepGruArt.rdlc" />
+    <EmbeddedResource Include="RepGruArt.resx">
+      <DependentUpon>RepGruArt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Reporte de compras.rdlc" />
+    <EmbeddedResource Include="Reporte de Ventas.rdlc" />
+    <EmbeddedResource Include="ReporteArticulo.rdlc" />
+    <EmbeddedResource Include="ReporteProceso.resx">
+      <DependentUpon>ReporteProceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteProcesoCompra.resx">
+      <DependentUpon>ReporteProcesoCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSup.rdlc" />
+    <EmbeddedResource Include="RepSup.resx">
+      <DependentUpon>RepSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepUni.rdlc" />
+    <EmbeddedResource Include="RepUni.resx">
+      <DependentUpon>RepUni.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BD_InventarioDataSet.xsc">
+      <DependentUpon>BD_InventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_InventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_InventarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_InventarioDataSet.xss">
+      <DependentUpon>BD_InventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_InventarioDataSet1.xsc">
+      <DependentUpon>BD_InventarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD_InventarioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_InventarioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_InventarioDataSet1.xss">
+      <DependentUpon>BD_InventarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD_InventarioDataSet2.xsc">
+      <DependentUpon>BD_InventarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BD_InventarioDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_InventarioDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_InventarioDataSet2.xss">
+      <DependentUpon>BD_InventarioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DatosFacturaCompra.xsc">
+      <DependentUpon>DatosFacturaCompra.xsd</DependentUpon>
+    </None>
+    <None Include="DatosFacturaCompra.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosFacturaCompra.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatosFacturaCompra.xss">
+      <DependentUpon>DatosFacturaCompra.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGeneral.xsc">
+      <DependentUpon>DataSetGeneral.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGeneral.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetGeneral.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetGeneral.xss">
+      <DependentUpon>DataSetGeneral.xsd</DependentUpon>
+    </None>
+    <None Include="DatosFactura.xsc">
+      <DependentUpon>DatosFactura.xsd</DependentUpon>
+    </None>
+    <None Include="DatosFactura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosFactura.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DatosFactura.xss">
+      <DependentUpon>DatosFactura.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Utilidades.csproj">
+      <Project>{96828B98-FD3B-4D43-A14E-DE6DD3FA0862}</Project>
+      <Name>Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo flat azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo United Supermarket.png" />
+    <None Include="Resources\Supermercados-Plaza.jpg" />
+    <None Include="Resources\Supermercados-Plaza1.jpg" />
+    <None Include="Resources\Supermercados-Plaza2.jpg" />
+    <None Include="Resources\Icono_usuario.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
