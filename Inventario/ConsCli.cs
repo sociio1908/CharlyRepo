@@ -23,7 +23,7 @@ namespace Inventario
         
         public override void Consultar()
         {
-            String CMD = "Select * From Clientes";
+            String CMD = "Select * From Clientes ";
             if (!String.IsNullOrEmpty(textBox1.Text.Trim()))
             {
                 CMD += " where NomCli  Like('%" + textBox1.Text.Trim() + "%')";
